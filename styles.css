@@ -1,0 +1,48 @@
+/*@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,500&display=swap');*/
+
+body {
+    background-color: rgb(rgb(3, 2, 2), rgb(27, 78, 109), rgb(122, 122, 225));
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(255, 140, 0);
+}
+
+header,
+.alert {
+    z-index: 100;
+}
+.bordes{
+    border: 1px solid grey;
+}
+
+.carrito {
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.table__productos {
+    display: flex;
+}
+
+.table__productos>img {
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.table__cantidad>input {
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.hide,
+.remove {
+    display: none;
+}
